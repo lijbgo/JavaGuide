@@ -188,6 +188,16 @@ JRE 是 Java运行时环境。它是运行已编译 Java 程序所需的所有�
 
 在Java中有两种形式可以实现多态：继承（多个子类对同一方法的重写）和接口（实现接口并覆盖接口中同一方法）。
 
+**编译时多态和运行时多态**
+
+根据何时确定执行多态方法中的哪一个，多态分为两种情况：编译时多态和运行时多态。如果在编译时能够确定执行多态方法中的哪一个，称为编译时多态，否则称为运行时多态。
+
+Person p = new Man() 表示“先声明一个Person类的对象p，然后用Man类对p进行实例化”
+
+**详细参照**
+- [Java 编译时多态和运行时多态](https://blog.csdn.net/why_still_confused/article/details/51295707)
+- [JAVA的多态用几句话能直观的解释一下吗？ - 程序狗的回答 - 知乎](https://www.zhihu.com/question/30082151/answer/120520568)
+
 ## 12. String StringBuffer 和 StringBuilder 的区别是什么? String 为什么是不可变的?
 
 **可变性**
